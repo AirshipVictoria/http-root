@@ -8,6 +8,38 @@ body {
     height: 960px;
     position: absolute;
     top: 0;
+	left: 0;
     width: 1280px;
     z-index: -1;
+}
+
+.header {
+	background-color: #fb7;
+    height: 90px;
+    width: 100%;
+	filter: alpha(opacity=15);
+	-moz-opacity:0.15;
+	-khtml-opacity: 0.15;
+	opacity: 0.15;
+    float: left;
+    position: absolute;
+    top: 0;
+	left: 0;
+    z-index: -1;
+}
+
+.menu {
+	margin-left:200px;
+}
+
+.menu ul {
+	clear:both;
+	list-style-type: none;
+}
+
+.menu ul li {
+	color: white;
+	width: 100px;
+	margin: 8px;
+	float:left;
 }
