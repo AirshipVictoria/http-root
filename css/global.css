@@ -1,0 +1,13 @@
+body {
+	background-color: #000;
+}
+
+.background {
+	background-image: url("../img/bg.jpg");
+    float: left;
+    height: 960px;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+    z-index: -1;
+}
