@@ -2,7 +2,6 @@ body {
     background-color: #000;
     font-family: 'Ropa Sans' !important;
     font-style: normal;
-    font-weight: 400;
 }
 
 .background {
@@ -17,10 +16,11 @@ body {
 }
 
 .title {
+	font-size:34px;
 	float:left;
 	width: 200px;
 	position:absolute;
-	top:-14px;
+	top:2px;
 	color:white;
 }
 
@@ -42,7 +42,7 @@ body {
 .menu {
     margin-left:200px;
 	position: absolute;
-	top: 3px;
+	top: 28px;
 }
 
 .menu ul {
@@ -51,6 +51,8 @@ body {
 }
 
 .menu ul li {
+	cursor: pointer;
+	font-size:18px;
     color: white;
     width: 100px;
     margin: 8px;
