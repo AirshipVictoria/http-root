@@ -1,7 +1,7 @@
 body {
     background-color: #000;
-    font-family: 'Ropa Sans' !important;
-    font-style: normal;
+	font-family: 'Ubuntu Mono', sans-serif;
+	font-weight:400;
 }
 
 .background {
@@ -16,22 +16,24 @@ body {
 }
 
 .title {
-	font-size:34px;
+	font-family: 'Abel', sans-serif;
+	font-size:28px;
 	float:left;
 	width: 200px;
 	position:absolute;
-	top:2px;
-	color:white;
+	top:4px;
+	color:#ddd;
+	text-shadow: 0 2px 3px #555;
 }
 
 .header {
-    background-color: #fb7;
+    background-color: #000;
     height: 70px;
     width: 100%;
-    filter: alpha(opacity=08);
-    -moz-opacity:0.08;
-    -khtml-opacity: 0.08;
-    opacity: 0.08;
+    filter: alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
     float: left;
     position: absolute;
     top: 0;
@@ -42,7 +44,7 @@ body {
 .menu {
     margin-left:200px;
 	position: absolute;
-	top: 28px;
+	top: 32px;
 }
 
 .menu ul {
@@ -52,9 +54,9 @@ body {
 
 .menu ul li {
 	cursor: pointer;
-	font-size:18px;
-    color: white;
-    width: 100px;
-    margin: 8px;
+	font-size:16px;
+    color: #ddd;
+    width: 90px;
+    margin: 7px;
     float:left;
 }
