@@ -1,45 +1,58 @@
 body {
-	background-color: #000;
+    background-color: #000;
+    font-family: 'Ropa Sans' !important;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .background {
-	background-image: url("../img/bg.jpg");
+    background-image: url("../img/bg.jpg");
     float: left;
     height: 960px;
     position: absolute;
     top: 0;
-	left: 0;
+    left: 0;
     width: 1280px;
     z-index: -1;
 }
 
+.title {
+	float:left;
+	width: 200px;
+	position:absolute;
+	top:-14px;
+	color:white;
+}
+
 .header {
-	background-color: #fb7;
-    height: 90px;
+    background-color: #fb7;
+    height: 70px;
     width: 100%;
-	filter: alpha(opacity=15);
-	-moz-opacity:0.15;
-	-khtml-opacity: 0.15;
-	opacity: 0.15;
+    filter: alpha(opacity=08);
+    -moz-opacity:0.08;
+    -khtml-opacity: 0.08;
+    opacity: 0.08;
     float: left;
     position: absolute;
     top: 0;
-	left: 0;
+    left: 0;
     z-index: -1;
 }
 
 .menu {
-	margin-left:200px;
+    margin-left:200px;
+	position: absolute;
+	top: 3px;
 }
 
 .menu ul {
-	clear:both;
-	list-style-type: none;
+    clear:both;
+    list-style-type: none;
 }
 
 .menu ul li {
-	color: white;
-	width: 100px;
-	margin: 8px;
-	float:left;
+    color: white;
+    width: 100px;
+    margin: 8px;
+    float:left;
 }
