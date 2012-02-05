@@ -12,14 +12,16 @@ html {
 	background-size: cover;
 }
 
-.content div {
+.content div.box {
+	background-color:rgba(10,4,4,0.5);
 	font-family: 'Abel', sans-serif;
 	font-size: 14px;
+	position:absolute;
+	top:70px;
 	color: #aaa;
 	margin:24px;
 	padding:6px;
 	width:900px;
-	background:transparent;
 }
 
 .title {
