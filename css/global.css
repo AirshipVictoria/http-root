@@ -57,6 +57,13 @@ html {
     float:left;
 }
 
+.hidden {
+    filter: alpha(opacity=0);
+    -moz-opacity:0.0;
+    -khtml-opacity: 0.0;
+    opacity: 0.0;
+}
+
 .content div.box {
     border-radius:8px;
     border: #504030 solid 1px;
