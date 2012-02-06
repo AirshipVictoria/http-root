@@ -12,18 +12,6 @@ html {
 	background-size: cover;
 }
 
-.content div.box {
-	background-color:rgba(10,4,4,0.5);
-	font-family: 'Abel', sans-serif;
-	font-size: 14px;
-	position:absolute;
-	top:70px;
-	color: #aaa;
-	margin:24px;
-	padding:6px;
-	width:900px;
-}
-
 .title {
 	font-family: 'Abel', sans-serif;
 	font-size:28px;
@@ -51,7 +39,7 @@ html {
 }
 
 .menu {
-    margin-left:200px;
+    margin-left:100px;
 	position: absolute;
 	top: 32px;
 }
@@ -65,7 +53,21 @@ html {
 	cursor: pointer;
 	font-size:16px;
     color: #ddd;
-    width: 90px;
-    margin: 7px;
+    margin: 7px 22px;
     float:left;
 }
+
+.content div.box {
+    border-radius:8px;
+    border: #504030 solid 1px;
+    background-color:rgba(10,4,4,0.5);
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    position:absolute;
+    top:70px;
+    color: #aaa;
+    margin:24px;
+    padding:12px;
+    width:800px;
+}
+
