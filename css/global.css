@@ -64,7 +64,7 @@ html {
     opacity: 0.0;
 }
 
-.content div.box {
+.box {
     border-radius:8px;
     border: #504030 solid 1px;
     background-color:rgba(10,4,4,0.9);
@@ -73,8 +73,11 @@ html {
     position:absolute;
     top:70px;
     color: #aaa;
-    margin:24px;
+    margin:24px 6px 6px 12px;
     padding:12px;
+}
+
+#about {
     width:800px;
 }
 
@@ -91,3 +94,21 @@ html {
     width:100%;
 }
 
+.gallery {
+    width:528px;
+}
+
+.crewshot {
+    float:left;
+    margin: 8px;
+}
+
+.crewshot img {
+    border-radius:8px;
+    cursor: pointer;
+}
+
+.bio {
+    width:272px;
+    margin-left:578px;
+}
