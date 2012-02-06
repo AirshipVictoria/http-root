@@ -20,6 +20,14 @@ $("#crew img").click(function() {
     $(".bio").fadeTo(500, 1);
 });
 
+$(".menu ul li").mouseover(function () {
+    $(this).animate({color:"#a08050"},300);
+});
+
+$(".menu ul li").mouseout(function () {
+    $(this).animate({color:"#ddd"},100);
+});
+
 window.CrewData = {
     kristian: {
         name: "Kristian Akseth",
