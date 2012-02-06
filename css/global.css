@@ -1,0 +1,73 @@
+body {
+    background-color: #000;
+	font-family: 'Ubuntu Mono', sans-serif;
+	font-weight:400;
+}
+
+html {
+	background: url(../img/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.title {
+	font-family: 'Abel', sans-serif;
+	font-size:28px;
+	float:left;
+	width: 200px;
+	position:absolute;
+	top:4px;
+	color:#ddd;
+	text-shadow: 0 2px 3px #555;
+}
+
+.header {
+    background-color: #000;
+    height: 70px;
+    width: 100%;
+    filter: alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.menu {
+    margin-left:100px;
+	position: absolute;
+	top: 32px;
+}
+
+.menu ul {
+    clear:both;
+    list-style-type: none;
+}
+
+.menu ul li {
+	cursor: pointer;
+	font-size:16px;
+    color: #ddd;
+    margin: 7px 22px;
+    float:left;
+}
+
+.content div.box {
+    border-radius:8px;
+    border: #504030 solid 1px;
+    background-color:rgba(10,4,4,0.5);
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    position:absolute;
+    top:70px;
+    color: #aaa;
+    margin:24px;
+    padding:12px;
+    width:800px;
+}
+
