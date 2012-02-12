@@ -1,0 +1,7 @@
+window.avHistory = {
+    origins: "The origins of Aiship Victoria lie in a dream to integrate the beauty and electricity of Tesla's invention, the Tesla coil, with the majesty of the airship.  Both are antiques, yet harken to the future.",
+    x1: "The X1, the first prototype, was intended as a small six cell airship with a bottom mounted Tesla coil.  Unfortunately it never flew itself and for it's first successful 'flight' it was hoisted by a small crane into the air for Decompression 2009.",
+    x2: "The X2 prototype, the first to successfully fly, was essentially a working model of the X1, with an additional rig for lights.",
+    x3: "The X3 took a step forward in the design of the frame and the size by incorporating seven 15 foot wide balloons in addition to the six 10 foot balloons on top.  This also successfully flew, though without a funcitonal mounted Tesla coil, there was a ground coil that was used for audio.",
+    x4beyond: "The X4 moves into an entirely different direction and is the most ambitious project overall.  A singlular balloon will replace the multicellular designs of the past, and will be moble again with three vehicles with mounted audio systems that will be Tesla coil plasma speaker clusters."
+};

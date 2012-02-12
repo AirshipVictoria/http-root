@@ -12,42 +12,86 @@
 <div class="menu">
     <ul>
         <li content="about">About</li>
+        <li content="blog">Blog</li>
         <li content="crew">Crew</li>
-        <li>Warehouse</li>
-        <li>Science</li>
-        <li>Music</li>
-        <li>Media</li>
-        <li>Blog</li>
-	</ul>
+        <li content="history">History</li>
+        <li content="code">Code</li>
+        <li content="music">Music</li>
+        <li content="media">Photos & Videos</li>
+        <li content="events">Events</li>
+    </ul>
 </div>
 <div class="content hidden">
-	<div class="box" id="about">
-        <div class="boxHeader">Our Project</div>
+
+    <!-- About the project - The mission statement -->
+    <div class="box" id="about">
         <img src="img/x3about.jpg"/>
-        <br>
-		Bacon ipsum dolor sit amet chuck salami chicken pastrami biltong. Frankfurter drumstick ham, turducken brisket pastrami cow beef. Ground round drumstick ham hock meatloaf, filet mignon shank ball tip tail bresaola meatball short loin bacon. Leberkase shoulder fatback ground round, venison spare ribs rump sirloin meatloaf flank capicola bresaola chicken filet mignon. Turducken t-bone venison, bacon pork chop cow ham hock brisket pastrami jowl pig short loin. Bacon spare ribs shoulder flank, boudin tongue hamburger capicola pig turkey rump.
-        <br/><br/>
-		Spare ribs jowl bresaola, short ribs rump strip steak salami ribeye tri-tip drumstick turkey ham hock jerky. Tongue chuck filet mignon turkey, pork capicola jerky pastrami frankfurter biltong beef drumstick ham. Fatback tail flank drumstick ribeye cow. Hamburger ball tip venison pastrami, shank sirloin jerky swine filet mignon kielbasa boudin capicola cow drumstick leberkase.
+        <p>
+            Born out of a desire to create a floating interactive performance art installation and to inspire science
+            and art in the local community, the Airship Victoria blends modern and historical technology to provide a
+            unique spin on airship design and architecture.  Through the integration of art, science, air, and
+            electricity, the operators of the Airship Victoria will create floating three-dimensional art that will
+            push the envelopes in visual and audio performance art, as well as science and technology.
+            This ambitious project is only the beginning, and with increased funding and participation, we are all
+            excited to see to what heights the Airship Victoria will soar.
+        </p>
     </div>
-	<div class="galleryLayout">
+
+    <!-- Blog: route to blog page -->
+
+    <!-- Who we are -->
+    <div class="galleryLayout">
         <div id="crew" class="gallery box" style="display:none">
             <div class="crewshot"><img id="kristian" src="img/crew/kristian.jpg"/></div>
             <div class="crewshot"><img id="andrew" src="img/crew/andrew.jpg"/></div>
             <div class="crewshot"><img id="mark" src="img/crew/mark.jpg"/></div>
             <div class="crewshot"><img id="matts" src="img/crew/matts.jpg"/></div>
             <div class="crewshot"><img id="becca" src="img/crew/becca.jpg"/></div>
+            <div class="crewshot"><img id="matth" src="img/crew/heck.jpg"/></div>
         </div>
         <div class="bio box hidden">
-            <div class="boxHeader">Kristian Akseth</div>
+            <div class="boxHeader"></div>
             <br/>
             <div id="biocontent">
-                Here's some text about one of the people in our project.  I don't know what more to say but there is always silence.
             </div>
         </div>
-	</div>
-	<div class="box" id="lab" style="display:none">
-	</div>
+    </div>
+
+    <!-- How did we get here! -->
+    <div class="box" id="history" style="display:none">
+        <div class="boxHeader">Origins</div>
+        <p id="origins"></p>
+        <div class="boxHeader">X1</div>
+        <p id="x1"></p>
+        <div class="boxHeader">X2</div>
+        <p id="x2"></p>
+        <div class="boxHeader">X3</div>
+        <p id="x3"></p>
+        <div class="boxHeader">X4 and beyond</div>
+        <p id="x4beyond"></p>
+    </div>
+
+    <div class="box" id="code" style="display:none">
+        <p>You can check out our code at our github repository here:</p>
+        <a href="https://github.com/AirshipVictoria">github.com/AirshipVictoria</a>
+    </div>
+
+    <div class="box" id="music" style="display:none">
+        <p>The music produced for the airship's 2011 flight can be found at the following links:</p>
+        <a href="http://bleego.com">bleego.com</a><br/>
+        <a href="http://soundcloud.com/bleego">soundcloud.com/bleego</a><br/>
+        <a href="http://bleego.bandcamp.com">bleego.bandcamp.com</a>
+    </div>
+
+    <div class="box" id="media" style="display:none">
+    </div>
+
+    <div class="box" id="events" style="display:none">
+        No events are planned currently.  Stay tuned for more information.
+    </div>
 </div>
+<script type="text/javascript" src="js/crew.js"></script>
+<script type="text/javascript" src="js/history.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
