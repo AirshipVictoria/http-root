@@ -1,26 +1,45 @@
 body {
     background-color: #000;
-	font-family: 'Ubuntu Mono', sans-serif;
-	font-weight:400;
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-weight:400;
 }
 
 html {
-	background: url(../img/bg.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    text-decoration: inherit;
+    font-style: inherit;
+    color: inherit;
+}
+
+a:link, a:visited {
+
+    border:none;
+    text-decoration: none;
+    font-style:normal;
+    color:#fbb;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #a3211f;
 }
 
 .title {
-	font-family: 'Abel', sans-serif;
-	font-size:28px;
-	float:left;
-	width: 200px;
-	position:absolute;
-	top:4px;
-	color:#ddd;
-	text-shadow: 0 2px 3px #555;
+    font-family: 'Abel', sans-serif;
+    font-size:28px;
+    float:left;
+    width: 200px;
+    position:absolute;
+    top:4px;
+    color:#ddd;
+    text-shadow: 0 2px 3px #555;
 }
 
 .header {
@@ -40,8 +59,8 @@ html {
 
 .menu {
     margin-left:100px;
-	position: absolute;
-	top: 32px;
+    position: absolute;
+    top: 32px;
 }
 
 .menu ul {
@@ -50,8 +69,8 @@ html {
 }
 
 .menu ul li {
-	cursor: pointer;
-	font-size:16px;
+    cursor: pointer;
+    font-size:16px;
     color: #ddd;
     margin: 7px 22px;
     float:left;
@@ -78,6 +97,10 @@ html {
 }
 
 #about {
+    width:800px;
+}
+
+#history {
     width:800px;
 }
 
