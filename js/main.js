@@ -31,7 +31,7 @@ $(".menu ul li").mouseout(function () {
 window.CrewData = {
     kristian: {
         name: "Kristian Akseth",
-        bio:"Cupcake ipsum dolor sit amet. Sweet chocolate bar macaroon chocolate cake. Tart biscuit danish lollipop lollipop. Dragée marshmallow dragée jujubes lollipop sugar plum dragée. Fruitcake fruitcake jujubes. Cookie cupcake danish marshmallow oat cake wypas jelly beans. Bear claw chocolate bar jelly wypas gingerbread cheesecake. Toffee cupcake biscuit pastry ice cream chupa chups chocolate bar. Topping applicake jelly beans toffee apple pie soufflé bear claw jelly. Jelly topping jujubes donut. Fruitcake pie jelly-o. Cake sweet roll toffee candy canes powder jelly beans liquorice chocolate cake.<br/><br/>Sweet pie marzipan cupcake sweet toffee ice cream lollipop. Chocolate chocolate lollipop. Toffee fruitcake tiramisu soufflé brownie cotton candy. Icing cookie fruitcake candy apple pie halvah pudding lemon drops. Jelly-o chocolate bar danish. Dragée lollipop brownie danish soufflé pudding caramels."
+        bio:"A native San Franciscan, is a co-founder of Confluent Entertianment, an event production company started in 2006 after the successful launch of the 2005 Fillmore ski jump which he designed and built.  In 2007 he designed a kiteboard ramp off of Crissy Field with a flow of 5,000 gallons of water a minute for Crissy Kite Days in partnership with the St. Francis Yacht Club. He is on the board and works with various Charitable groups and Foundations and has been very involved with the Northern California Norwegian community particularly as vice president of the Norway Day Festival.  With a keen interest in combining science and art to create visually stunning eyecandy the Airship Victoria continues this tradition."
     },
     andrew: {
         name: "Andrew Boyd",
@@ -39,7 +39,7 @@ window.CrewData = {
     },
     mark: {
         name: "Mark Fleschler",
-        bio:"Bacon ipsum dolor sit amet chuck salami chicken pastrami biltong. Frankfurter drumstick ham, turducken brisket pastrami cow beef. Ground round drumstick ham hock meatloaf, filet mignon shank ball tip tail bresaola meatball short loin bacon. Leberkase shoulder fatback ground round, venison spare ribs rump sirloin meatloaf flank capicola bresaola chicken filet mignon. Turducken t-bone venison, bacon pork chop cow ham hock brisket pastrami jowl pig short loin. Bacon spare ribs shoulder flank, boudin tongue hamburger capicola pig turkey rump.<br/><br/>Spare ribs jowl bresaola, short ribs rump strip steak salami ribeye tri-tip drumstick turkey ham hock jerky. Tongue chuck filet mignon turkey, pork capicola jerky pastrami frankfurter biltong beef drumstick ham. Fatback tail flank drumstick ribeye cow. Hamburger ball tip venison pastrami, shank sirloin jerky swine filet mignon kielbasa boudin capicola cow drumstick leberkase."
+        bio:"Bay area native, a web developer by day who has worked at successful web startups, by night he wears a number of different technology and artistic hats in various projects.  He is currently pushing forward a number of music projects, including <a href='http://www.bleego.com'>Bleego</a>, along with a number of software projects some tied with Airship Victoria, and others completely unrelated."
     },
     matts: {
         name: "Matt Stephensen",
@@ -48,5 +48,9 @@ window.CrewData = {
     becca: {
         name: "Becca Wood",
         bio:"Cupcake ipsum dolor sit amet. Sweet chocolate bar macaroon chocolate cake. Tart biscuit danish lollipop lollipop. Dragée marshmallow dragée jujubes lollipop sugar plum dragée. Fruitcake fruitcake jujubes. Cookie cupcake danish marshmallow oat cake wypas jelly beans. Bear claw chocolate bar jelly wypas gingerbread cheesecake. Toffee cupcake biscuit pastry ice cream chupa chups chocolate bar. Topping applicake jelly beans toffee apple pie soufflé bear claw jelly. Jelly topping jujubes donut. Fruitcake pie jelly-o. Cake sweet roll toffee candy canes powder jelly beans liquorice chocolate cake.<br/><br/>Sweet pie marzipan cupcake sweet toffee ice cream lollipop. Chocolate chocolate lollipop. Toffee fruitcake tiramisu soufflé brownie cotton candy. Icing cookie fruitcake candy apple pie halvah pudding lemon drops. Jelly-o chocolate bar danish. Dragée lollipop brownie danish soufflé pudding caramels."
+    },
+    matth: {
+        name: "Matt Heck",
+        bio: ""
     }
 };
