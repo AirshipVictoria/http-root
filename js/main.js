@@ -27,3 +27,7 @@ $(".menu ul li").mouseover(function () {
 $(".menu ul li").mouseout(function () {
     $(this).animate({color:"#ddd"},100);
 });
+
+$("#history p").each(function() {
+    $(this).html(avHistory[$(this).attr("id")]);
+});
