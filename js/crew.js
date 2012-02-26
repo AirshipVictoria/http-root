@@ -22,5 +22,9 @@ window.CrewData = {
     matth: {
         name: "Matt Heck",
         bio: "Matt is a goober for not giving me his bio yet."
+    },
+    geo: {
+        name: "Geo Vittoratos",
+        bio: "Geo is a goober for not giving me his bio yet."
     }
 };
