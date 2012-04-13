@@ -1,0 +1,137 @@
+body {
+    background-color: #000;
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-weight:400;
+}
+
+html {
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    text-decoration: inherit;
+    font-style: inherit;
+    color: inherit;
+}
+
+a:link, a:visited {
+
+    border:none;
+    text-decoration: none;
+    font-style:normal;
+    color:#fbb;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #a3211f;
+}
+
+.title {
+    font-family: 'Abel', sans-serif;
+    font-size:28px;
+    float:left;
+    width: 200px;
+    position:absolute;
+    top:4px;
+    color:#ddd;
+    text-shadow: 0 2px 3px #555;
+}
+
+.header {
+    background-color: #000;
+    height: 70px;
+    width: 100%;
+    filter: alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.menu {
+    margin-left:100px;
+    position: absolute;
+    top: 32px;
+}
+
+.menu ul {
+    clear:both;
+    list-style-type: none;
+}
+
+.menu ul li {
+    cursor: pointer;
+    font-size:16px;
+    color: #ddd;
+    margin: 7px 22px;
+    float:left;
+}
+
+.hidden {
+    filter: alpha(opacity=0);
+    -moz-opacity:0.0;
+    -khtml-opacity: 0.0;
+    opacity: 0.0;
+}
+
+.box {
+    border-radius:8px;
+    border: #504030 solid 1px;
+    background-color:rgba(10,4,4,0.9);
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    position:absolute;
+    top:70px;
+    color: #aaa;
+    margin:24px 6px 6px 12px;
+    padding:12px;
+}
+
+#about {
+    width:800px;
+}
+
+#history {
+    width:800px;
+}
+
+.content div.box#about img {
+    margin-left: 8px;
+    margin-bottom:8px;
+}
+
+.boxHeader {
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-weight:400;
+    font-size:24px;
+    padding:4px 8px 12px;
+    width:100%;
+}
+
+.gallery {
+    width:528px;
+}
+
+.crewshot {
+    float:left;
+    margin: 8px;
+}
+
+.crewshot img {
+    border-radius:8px;
+    cursor: pointer;
+}
+
+.bio {
+    width:272px;
+    margin-left:578px;
+}
