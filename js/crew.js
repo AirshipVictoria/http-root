@@ -25,6 +25,10 @@ window.CrewData = {
     },
     geo: {
         name: "Geo Vittoratos",
-        bio: "Geo is a goober for not giving me his bio yet."
+        bio: "Her name is Geo and she dances on the sand. Geo lives in San Francisco's Mission district and she survives off of burritos, glitter and platform boots. Geo studied Art at UCSB and then sold out to the man by getting her MBA at San Francisco State. Advertising is how she makes her money and Art is how she feeds her soul. You will know Geo by the feathers in her hair, the giant earrings in her ears and the platform boots on her feet."
+    },
+    audrey: {
+        name: "Audrey Love",
+        bio: "Audrey is a goober for not giving me her bio yet."
     }
 };
