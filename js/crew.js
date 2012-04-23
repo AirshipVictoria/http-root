@@ -5,7 +5,7 @@ window.CrewData = {
     },
     andrew: {
         name: "Andrew Boyd",
-        bio:"Veggies sunt bona vobis, proinde vos postulo esse magis shallot celery eggplant nori epazote burdock cress cauliflower pumpkin soko prairie turnip.<br/><br/>Jícama groundnut aubergine napa cabbage melon peanut amaranth mustard watercress. Cabbage lotus root lentil bamboo shoot aubergine spring onion watercress taro dandelion seakale garlic kale dulse winter purslane burdock welsh onion. Earthnut pea squash corn bamboo shoot ricebean radish."
+        bio:"Andrew's a goober for not giving me his bio yet."
     },
     mark: {
         name: "Mark Fleschler",
@@ -13,14 +13,22 @@ window.CrewData = {
     },
     matts: {
         name: "Matt Stephensen",
-        bio:"Veggies sunt bona vobis, proinde vos postulo esse magis shallot celery eggplant nori epazote burdock cress cauliflower pumpkin soko prairie turnip.<br/><br/>Jícama groundnut aubergine napa cabbage melon peanut amaranth mustard watercress. Cabbage lotus root lentil bamboo shoot aubergine spring onion watercress taro dandelion seakale garlic kale dulse winter purslane burdock welsh onion. Earthnut pea squash corn bamboo shoot ricebean radish."
+        bio:"A nomadic Engineer who has finally found his home in the bay area, Matt keeps his head in the clouds by day and night.  He works on many open source software initiatives and updates his github far more frequently than his facebook.  His past includes a vast array of optics, electrical engineering, and computer science research.  If he's not building something awesome, he can commonly be found in the local Irish pub playing music."
     },
     becca: {
         name: "Becca Wood",
-        bio:"Cupcake ipsum dolor sit amet. Sweet chocolate bar macaroon chocolate cake. Tart biscuit danish lollipop lollipop. Dragée marshmallow dragée jujubes lollipop sugar plum dragée. Fruitcake fruitcake jujubes. Cookie cupcake danish marshmallow oat cake wypas jelly beans. Bear claw chocolate bar jelly wypas gingerbread cheesecake. Toffee cupcake biscuit pastry ice cream chupa chups chocolate bar. Topping applicake jelly beans toffee apple pie soufflé bear claw jelly. Jelly topping jujubes donut. Fruitcake pie jelly-o. Cake sweet roll toffee candy canes powder jelly beans liquorice chocolate cake.<br/><br/>Sweet pie marzipan cupcake sweet toffee ice cream lollipop. Chocolate chocolate lollipop. Toffee fruitcake tiramisu soufflé brownie cotton candy. Icing cookie fruitcake candy apple pie halvah pudding lemon drops. Jelly-o chocolate bar danish. Dragée lollipop brownie danish soufflé pudding caramels."
+        bio:"Becca is a mystery of the south.  Born in New Orleans and raised in Houston, she drifted to the bay area in January 2011.  Several months later, she was snared by a group of mad scientists who also happened to be the crew of the Airship Victoria.  Discovered to be a \"Jill of many trades,\" Becca has been bestowed with a variety of tasks and assistantships.  She also occasionally serves as Camp Wrangler.  While she's not working on Airship Victoria, you will most likely find her working with horses, dancing, or writing."
     },
     matth: {
         name: "Matt Heck",
-        bio: ""
+        bio: "Matt is a goober for not giving me his bio yet."
+    },
+    geo: {
+        name: "Geo Vittoratos",
+        bio: "Her name is Geo and she dances on the sand. Geo lives in San Francisco's Mission district and she survives off of burritos, glitter and platform boots. Geo studied Art at UCSB and then sold out to the man by getting her MBA at San Francisco State. Advertising is how she makes her money and Art is how she feeds her soul. You will know Geo by the feathers in her hair, the giant earrings in her ears and the platform boots on her feet."
+    },
+    audrey: {
+        name: "Audrey Love",
+        bio: "Audrey is a goober for not giving me her bio yet."
     }
 };
