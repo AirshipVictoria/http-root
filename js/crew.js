@@ -5,7 +5,7 @@ window.CrewData = {
     },
     andrew: {
         name: "Andrew Boyd",
-        bio:"Andrew's a goober for not giving me his bio yet."
+        bio:"Andrew is our financial and organizational heartbeat.  Without Andrew, the project would disintegrate into chaos and alcohol."
     },
     mark: {
         name: "Mark Fleschler",
@@ -21,7 +21,7 @@ window.CrewData = {
     },
     matth: {
         name: "Matt Heck",
-        bio: "Matt is a goober for not giving me his bio yet."
+        bio: "Matt Heck is one of our mad scientists on the project.  More about Matt TBD"
     },
     geo: {
         name: "Geo Vittoratos",
@@ -29,6 +29,6 @@ window.CrewData = {
     },
     audrey: {
         name: "Audrey Love",
-        bio: "Audrey is a goober for not giving me her bio yet."
+        bio: "Audrey is Awesome Sauce and our chief metal-worker."
     }
 };
