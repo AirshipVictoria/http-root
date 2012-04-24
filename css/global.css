@@ -123,13 +123,6 @@ a:hover {
     color: #aaa;
     margin:24px 6px 6px 12px;
     padding:12px;
-}
-
-#about {
-    width:800px;
-}
-
-#history {
     width:800px;
 }
 
@@ -147,12 +140,12 @@ a:hover {
 }
 
 .gallery {
-    width:528px;
+    width:800px;
 }
 
 .crewshot {
     float:left;
-    margin: 8px;
+    margin: 20px;
 }
 
 .crewshot img {
@@ -162,5 +155,5 @@ a:hover {
 
 .bio {
     width:272px;
-    margin-left:578px;
+    margin-left:860px;
 }

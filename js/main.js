@@ -13,11 +13,11 @@ $(document).ready(function() {
     $(".content").fadeTo(0, 1);
 });
 
-$("#crew img").click(function() {
+$("#crew img").hover(function() {
     var id = $(this).attr("id");
     $(".bio .boxHeader").html(CrewData[id].name);
     $(".bio #biocontent").html(CrewData[id].bio);
-    $(".bio").fadeTo(500, 1);
+    $(".bio").fadeTo(800, 1);
 });
 
 $(".menu ul li").mouseover(function () {
