@@ -1,6 +1,35 @@
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url('http://themes.googleusercontent.com/static/fonts/ubuntumono/v3/ViZhet7Ak-LRXZMXzuAfkZ0EAVxt0G0biEntp43Qt6E.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Abel'), local('Abel-Regular'), url('http://themes.googleusercontent.com/static/fonts/abel/v3/N59kklKPso9WzbZH9jwJSg.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Inconsolata'), url('http://themes.googleusercontent.com/static/fonts/inconsolata/v5/BjAYBlHtW3CJxDcjzrnZCJ0EAVxt0G0biEntp43Qt6E.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Copperplate';
+  font-style: normal;
+  font-weight: normal;
+# Note that we default to the free font pollerone if copperplate is unavailable.
+  src: local('Copperplate'), local('Copperplate Gothic Light'), url('http://themes.googleusercontent.com/static/fonts/pollerone/v3/7FMOfxy_tGzN2YzWSe-XEy3USBnSvpkopQaUR-2r7iU.ttf') format('truetype');
+}
+
 body {
     background-color: #000;
-    font-family: 'Ubuntu Mono', sans-serif;
+    font-family: 'Copperplate', sans-serif;
     font-weight:400;
 }
 
@@ -94,13 +123,6 @@ a:hover {
     color: #aaa;
     margin:24px 6px 6px 12px;
     padding:12px;
-}
-
-#about {
-    width:800px;
-}
-
-#history {
     width:800px;
 }
 
@@ -110,20 +132,20 @@ a:hover {
 }
 
 .boxHeader {
-    font-family: 'Ubuntu Mono', sans-serif;
+    font-family: 'Copperplate', sans-serif;
     font-weight:400;
     font-size:24px;
-    padding:4px 8px 12px;
+    padding:6px 8px 10px;
     width:100%;
 }
 
 .gallery {
-    width:528px;
+    width:800px;
 }
 
 .crewshot {
     float:left;
-    margin: 8px;
+    margin: 20px;
 }
 
 .crewshot img {
@@ -133,5 +155,5 @@ a:hover {
 
 .bio {
     width:272px;
-    margin-left:578px;
+    margin-left:860px;
 }
