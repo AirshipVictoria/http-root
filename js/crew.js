@@ -5,7 +5,7 @@ window.CrewData = {
     },
     andrew: {
         name: "Andrew Boyd",
-        bio:"Andrew is our financial and organizational heartbeat.  Without Andrew, the project would disintegrate into chaos and alcohol."
+        bio:"He had a degree in Electrical Engineering and an MBA from Cornell University, but they were stolen by a band of no-good treasure hunters; he vows to eventually retrieve them, claiming that \"It belongs in a museum!\".  When not scouring the earth for the rubber bands or requisitioning the crates of duct tape needed to keep the Airship aflying, he can be found designing airframes and ground systems or simply basking in the creative energy of the entire team."
     },
     mark: {
         name: "Mark Fleschler",
