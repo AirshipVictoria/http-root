@@ -29,6 +29,6 @@ window.CrewData = {
     },
     audrey: {
         name: "Audrey Love",
-        bio: "Audrey is Awesome Sauce and our chief metal-worker."
+        bio: "Audrey is an artist, noisemaker, and crafter. She developed her skills as a photographer and videographer before an electric ukulele pushed her interests into the realm of music, sound, and interactivity. Currently she is working with the <a href='http://robotversusfuture.tumblr.com/'>Robot Versus Future</a> artist collective, the Airship Victoria, and many other intersections of art, science, and electricity."
     }
 };
